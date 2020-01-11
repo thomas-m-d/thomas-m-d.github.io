@@ -1,0 +1,40 @@
+@import './colors.scss';
+
+.sectionContactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $contactColor;
+  padding: 6em 0 2em 0;
+  min-height: 30vh;
+}
+
+.sectionContactH1 {
+  font-size: 350%;
+  text-align: center;
+  color: $contactTextColor;
+  margin: 0 0 1em 0;
+}
+
+.sectionContactAListDiv {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 0 2.5% 0;
+}
+
+.sectionContactA {
+  font-size: 200%;
+  text-decoration: none;
+  color: $contactTextColor;
+  border-radius: 5px;
+  padding: 0 .5em 0 .5em;
+  margin: 0;
+}
+
+.sectionContactA:hover {
+  background-color: $contactColorLight;
+}
+
+

@@ -1,0 +1,80 @@
+@import './colors.scss';
+
+.App {
+  text-align: center;
+}
+
+.sectionDiv {
+  position: relative;
+  z-index: 0;
+  padding-bottom: 2em;
+}
+
+.sectionA {
+  position: absolute;
+  z-index: 0;
+  top: -20vh;
+}
+
+.sectionHeader {
+  font-size: 350%;
+  text-align: center;
+  color: $textColor;
+  width: 100%;
+  margin: 1.5em 0 1.25em 0;
+}
+
+.tilesDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.transitionDiv {
+  hr {
+    margin: 0;
+  }
+  .transitionHr1 {
+    border-width: 1px;
+    border-style: solid;
+  }
+  .transitionHr2 {
+    border-width: 4px;
+    border-style: solid;
+  }
+  .transitionHr3 {
+    border-width: 2px;
+    border-style: solid;
+  }
+  .transitionHr4 {
+    border-width: 3px;
+    border-style: solid;
+  }
+  .transitionHr5 {
+    border-width: 3px;
+    border-style: solid;
+  }
+  .transitionHr6 {
+    border-width: 2px;
+    border-style: solid;
+  }
+  .transitionHr7 {
+    border-width: 4px;
+    border-style: solid;
+  }
+  .transitionHr8 {
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+.academicSpacerDiv {
+  height: 2em;
+  background-color: $contactColor;
+}
+
+.contactSpacerDiv {
+  height: 2em;
+  background-color: $academicColorDark;
+}

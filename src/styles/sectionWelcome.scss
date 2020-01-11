@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+.sectionWelcomeDiv {
+  min-height: 90vh;
+  background-color: $welcomeColor;
+  color: $textAccentColor;
+  border: 2px solid $welcomeColor;
+
+  .sectionWelcomeHiP {
+    font-size: 200%;
+    text-align: left;
+    padding-top: 15vh;
+    margin-top: 2em;
+    margin-left: 4em;
+  }
+  .sectionWelcomeNameH1 {
+    margin: 2em 0 2em 0;
+  }
+  .sectionWelcomeTitlesAligner {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .sectionWelcomeTitlesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 200%;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+  .sectionWelcomeTitle {
+    margin: 0 0 .35ch 0;
+  }
+}

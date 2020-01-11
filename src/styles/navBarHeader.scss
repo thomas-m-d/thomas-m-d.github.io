@@ -1,0 +1,46 @@
+@import './colors.scss';
+
+.navBarHeaderDiv {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+
+  .navBarHeaderHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10vh;
+    font-size: large;
+    min-height: 3.5em;
+    max-height: 4.25em;
+    background-color: $navColor;
+    border-top: 5px solid $navTextColor;
+    border-bottom: 5px solid $navTextColor;
+  }
+  .navBarHeaderP {
+    text-align: center;
+    color: $navTextColor;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+  }
+  .navBarHeaderNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: bottom;
+    font-size: large;
+  }
+  .navBarHeaderA {
+    padding: 0 .5em 0 .5em;
+    margin: 0;
+    color: $navTextColor;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .navBarHeaderA:hover {
+    background-color: $navColorLight;
+  }
+
+}
