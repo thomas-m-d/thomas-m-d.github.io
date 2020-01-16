@@ -3,7 +3,7 @@
 .tileDiv {
   width: 28%;
   min-width: 250px;
-  margin: 1em 0 3em 0;
+  margin: 1vh 0 1vh 0;
 }
 
 .tileA {
@@ -76,6 +76,15 @@
 }
 
 @media (max-height: 50em) {
+  .tileP {
+    font-size: 125%;
+  }
+  .tileImgDescriptionDiv {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .tileP {
     font-size: 125%;
   }

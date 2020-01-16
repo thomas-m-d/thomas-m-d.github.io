@@ -14,7 +14,7 @@ class SectionWelcome extends React.Component {
           <div className="sectionWelcomeTitlesContainer">
             <p className="sectionWelcomeTitle">Web Developer,</p>
             <p className="sectionWelcomeTitle">Analytic Philosopher,</p>
-            <p className="sectionWelcomeTitle">Music Tech Enthusiast</p>
+            <p className="sectionWelcomeTitle">Music Tech Enthusiast.</p>
           </div>
         </div>
       </div>

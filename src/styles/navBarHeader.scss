@@ -9,10 +9,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 10vh;
+    height: auto;
     font-size: large;
-    min-height: 3.5em;
-    max-height: 4.25em;
+//    min-height: 3.5em;
+    max-height: 10vh;
+//    overflow-y: auto;
+    padding: .5em 0 .5em 0;
     background-color: $navColor;
     border-top: 5px solid $navTextColor;
     border-bottom: 5px solid $navTextColor;
@@ -23,10 +25,12 @@
     font-size: large;
     font-weight: bold;
     text-decoration: underline;
+    padding: 0;
     margin: 0;
   }
   .navBarHeaderNav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     vertical-align: bottom;
@@ -43,4 +47,21 @@
     background-color: $navColorLight;
   }
 
+  @media only screen and (max-width: 600px) {
+    .navBarHeaderHeader {
+      height: auto;
+      max-height: 25vh;
+      overflow-y: auto;
+      padding: 0;
+
+      .navBarHeaderP {
+        font-size: medium;
+      }
+
+      .navBarHeaderA {
+        font-size: medium;
+      }
+    }
+  }
 }
+
