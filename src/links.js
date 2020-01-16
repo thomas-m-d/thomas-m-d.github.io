@@ -25,3 +25,7 @@ export const TRANSPOSITION =
 //Contact Links
 export const GITHUB = "https://github.com/thomas-m-d/";
 export const EMAIL = "mailto:tmuseusdabay@pm.me?subject=";
+export const RESUME =
+  "https://github.com/thomas-m-d/JobMaterials/blob/master/ThomasMuseusDabayResume.pdf";
+export const CV =
+  "https://github.com/thomas-m-d/JobMaterials/blob/master/ThomasMuseusDabayCV.pdf";

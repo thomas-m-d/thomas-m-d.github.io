@@ -19,15 +19,12 @@ class SectionContact extends React.Component {
               <FontAwesomeIcon icon={faGithub} /> Github
             </span>
           </a>
-          <a href="" className="sectionContactA">
+          <a href={Links.RESUME} className="sectionContactA">
             <span>
               <FontAwesomeIcon icon={faFilePdf} /> Resume
             </span>
           </a>
-          <a
-            href="Resources/ThomasMuseusDabayCV.pdf"
-            className="sectionContactA"
-          >
+          <a href={Links.CV} className="sectionContactA">
             <span>
               <FontAwesomeIcon icon={faFilePdf} /> Academic CV
             </span>
