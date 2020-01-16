@@ -37,3 +37,13 @@
 .sectionContactA:hover {
   background-color: $contactColorLight;
 }
+
+@media only screen and (max-width: 600px) {
+  .sectionContactH1 {
+    font-size: 250%;
+  }
+
+  .sectionContactA {
+    font-size: 125%;
+  }
+}
