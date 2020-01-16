@@ -22,6 +22,7 @@
   color: $textColor;
   width: 100%;
   margin: 1.5em 0 1.25em 0;
+  word-wrap: break-word;
 }
 
 .tilesDiv {
@@ -77,4 +78,11 @@
 .contactSpacerDiv {
   height: 2em;
   background-color: $academicColorDark;
+}
+
+@media only screen and (max-width: 600px) {
+  .sectionHeader {
+    font-size: 250%;
+    margin: .5em 0 .5em 0;
+  }
 }

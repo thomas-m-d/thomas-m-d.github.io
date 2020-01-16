@@ -11,7 +11,7 @@ import * as Links from "../links.js";
 class SectionWebDevProjects extends React.Component {
   render() {
     return (
-      <div className="sectionDiv sectionWebDevProjectsDiv">
+      <div className="sectionDiv sectionWebDevProjectsDiv" lang="en">
         <a id="sectionWebDevProjectsA" className="sectionA"></a>
         <h1 className="sectionWebDevProjectsH1 sectionHeader">
           Web Development Coding Projects

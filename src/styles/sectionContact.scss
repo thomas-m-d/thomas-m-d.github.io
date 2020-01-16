@@ -18,6 +18,7 @@
 
 .sectionContactAListDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-decoration: none;
   border-radius: 5px;
@@ -30,11 +31,19 @@
   color: $contactTextColor;
   border-radius: 5px;
   padding: 0 .5em 0 .5em;
-  margin: 0;
+  margin: .35em 0 .5em 0;
 }
 
 .sectionContactA:hover {
   background-color: $contactColorLight;
 }
 
+@media only screen and (max-width: 600px) {
+  .sectionContactH1 {
+    font-size: 250%;
+  }
 
+  .sectionContactA {
+    font-size: 125%;
+  }
+}

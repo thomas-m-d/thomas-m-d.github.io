@@ -11,7 +11,7 @@
     text-align: left;
     padding-top: 15vh;
     margin-top: 2em;
-    margin-left: 4em;
+    margin-left: 6vw;
   }
   .sectionWelcomeNameH1 {
     margin: 2em 0 2em 0;
@@ -27,10 +27,21 @@
     justify-content: space-between;
     align-items: flex-end;
     font-size: 200%;
-    margin-right: 4em;
+    margin-right: 6vw;
     margin-bottom: 2em;
   }
   .sectionWelcomeTitle {
     margin: 0 0 .35ch 0;
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sectionWelcomeHiP {
+      font-size: 125%;
+    }
+
+    .sectionWelcomeTitlesContainer {
+      font-size: 125%;
+    }
   }
 }
