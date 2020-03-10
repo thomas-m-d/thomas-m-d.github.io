@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb24a855fff0a3048425a625761e64fc",
+    "revision": "223a423022876a567426ec4f6c277a2f",
     "url": "/index.html"
   },
   {
-    "revision": "dc3ca1ed0ccbaa7f55de",
+    "revision": "f070176ced6da2f7ab03",
     "url": "/static/css/main.d4f4e6ed.chunk.css"
   },
   {
-    "revision": "c70fb276b4911e89daba",
-    "url": "/static/js/2.455673fc.chunk.js"
+    "revision": "cc1bab79218a6e74af6a",
+    "url": "/static/js/2.cbaa27b6.chunk.js"
   },
   {
-    "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.455673fc.chunk.js.LICENSE"
+    "revision": "f231859d6585c4cd5f80c344783ed269",
+    "url": "/static/js/2.cbaa27b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc3ca1ed0ccbaa7f55de",
-    "url": "/static/js/main.4ac6c73f.chunk.js"
+    "revision": "f070176ced6da2f7ab03",
+    "url": "/static/js/main.15de8f5a.chunk.js"
   },
   {
-    "revision": "fd29c5023ab99ff4d769",
-    "url": "/static/js/runtime-main.90cbd6e5.js"
+    "revision": "b2a65dc3cd55b436379b",
+    "url": "/static/js/runtime-main.4759036f.js"
   },
   {
     "revision": "8f43eaaffd3151496e56f3788b15935b",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e17e3423f2408a93cccea63b235e1828",
     "url": "/static/media/polishCalcImageFile.e17e3423.png"
+  },
+  {
+    "revision": "685be7af2e402c819c42d82dc05e4a6a",
+    "url": "/static/media/pomodoroClockImageFile.685be7af.png"
   },
   {
     "revision": "d5154b6d6498726f07d7d31bf3df537a",

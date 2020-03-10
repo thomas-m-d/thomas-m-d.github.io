@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d4f4e6ed.chunk.css",
-    "main.js": "/static/js/main.4ac6c73f.chunk.js",
-    "main.js.map": "/static/js/main.4ac6c73f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.90cbd6e5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.90cbd6e5.js.map",
-    "static/js/2.455673fc.chunk.js": "/static/js/2.455673fc.chunk.js",
-    "static/js/2.455673fc.chunk.js.map": "/static/js/2.455673fc.chunk.js.map",
+    "main.js": "/static/js/main.15de8f5a.chunk.js",
+    "main.js.map": "/static/js/main.15de8f5a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4759036f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4759036f.js.map",
+    "static/js/2.cbaa27b6.chunk.js": "/static/js/2.cbaa27b6.chunk.js",
+    "static/js/2.cbaa27b6.chunk.js.map": "/static/js/2.cbaa27b6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2cb1222c85d37cd48e7066f28ee164da.js": "/precache-manifest.2cb1222c85d37cd48e7066f28ee164da.js",
+    "precache-manifest.fe8597b8b1c8d983b258bb873a13102f.js": "/precache-manifest.fe8597b8b1c8d983b258bb873a13102f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d4f4e6ed.chunk.css.map": "/static/css/main.d4f4e6ed.chunk.css.map",
-    "static/js/2.455673fc.chunk.js.LICENSE": "/static/js/2.455673fc.chunk.js.LICENSE",
+    "static/js/2.cbaa27b6.chunk.js.LICENSE.txt": "/static/js/2.cbaa27b6.chunk.js.LICENSE.txt",
     "static/media/brandomTributeImageFile.png": "/static/media/brandomTributeImageFile.8f43eaaf.png",
     "static/media/cvGeneratorImageFile.png": "/static/media/cvGeneratorImageFile.1a5a39f6.png",
     "static/media/goldilocksNaturalismImageFile.jpg": "/static/media/goldilocksNaturalismImageFile.41abdc98.jpg",
@@ -25,12 +25,13 @@
     "static/media/pathwayImageFile.jpg": "/static/media/pathwayImageFile.8576d7bf.jpg",
     "static/media/peirceAntiCartesianImageFile.jpg": "/static/media/peirceAntiCartesianImageFile.d9d74762.jpg",
     "static/media/polishCalcImageFile.png": "/static/media/polishCalcImageFile.e17e3423.png",
+    "static/media/pomodoroClockImageFile.png": "/static/media/pomodoroClockImageFile.685be7af.png",
     "static/media/transpositionImageFile.png": "/static/media/transpositionImageFile.d5154b6d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.90cbd6e5.js",
-    "static/js/2.455673fc.chunk.js",
+    "static/js/runtime-main.4759036f.js",
+    "static/js/2.cbaa27b6.chunk.js",
     "static/css/main.d4f4e6ed.chunk.css",
-    "static/js/main.4ac6c73f.chunk.js"
+    "static/js/main.15de8f5a.chunk.js"
   ]
 }
