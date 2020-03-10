@@ -5,6 +5,7 @@ import * as Colors from "../styles/colors.js";
 import polishCalcImage from "../images/polishCalcImageFile.png";
 import brandomTributeImage from "../images/brandomTributeImageFile.png";
 import kantProductImage from "../images/kantProductImageFile.png";
+import pomodoroClockImage from "../images/pomodoroClockImageFile.png";
 import * as Descriptions from "./componentResources/tileDescriptionText.js";
 import * as Links from "../links.js";
 
@@ -23,6 +24,15 @@ class SectionWebDevProjects extends React.Component {
             link={Links.POLISH}
             descriptionText={Descriptions.POLISH}
             image={polishCalcImage}
+            bgColor={Colors.webDevColor}
+            hoverBgColor={Colors.webDevColorLight}
+          />
+          <Tile
+            className="tile sectionWebDevProjectsTile pomodoroClockTile"
+            name="Pomodoro Clock"
+            link={Links.POMODORO}
+            descriptionText={Descriptions.POMODORO}
+            image={pomodoroClockImage}
             bgColor={Colors.webDevColor}
             hoverBgColor={Colors.webDevColorLight}
           />

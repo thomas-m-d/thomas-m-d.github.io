@@ -140,6 +140,14 @@ export const POLISH = (
     Notation formulae.
   </p>
 );
+export const POMODORO = (
+  <p className="tileImgDescriptionP">
+    Technologies Used: React, Redux, Javascript, SASS/SCSS
+    <br />
+    <br />
+    Completed version of FreeCodeCamp's Pomodoro Clock assignment.
+  </p>
+);
 export const TRANSPOSITION = (
   <p className="tileImgDescriptionP">
     Peer-Reviewed Journal Article

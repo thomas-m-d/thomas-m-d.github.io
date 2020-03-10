@@ -19,6 +19,7 @@ export const PATHWAY = "https://github.com/thomas-m-d/HADModules";
 export const PEIRCE =
   "https://www.tandfonline.com/doi/full/10.1080/09672559.2016.1203981";
 export const POLISH = "https://thomas-m-d.github.io/learn-polish-calc/";
+export const POMODORO = "https://thomas-m-d.github.io/pomodoro-clock/";
 export const TRANSPOSITION =
   "http://almukhatabatjournal.unblog.fr/2016/12/25/al-mukhatabat-journal-october-issue-162015-special-issue-on-robert-brandom/";
 
